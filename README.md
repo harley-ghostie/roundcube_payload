@@ -158,7 +158,7 @@ Orienta validação no serviço OAST/Burp Collaborator
 
 ---
 
-## Campos sensíveis que devem ser alterados
+## Campos que devem ser alterados
 
 ### URL do alvo
 
@@ -186,11 +186,7 @@ cookies = {
 
 ### Comando de validação
 
-O comando atual usa `nslookup` para validar interação externa:
-
-```python
-cmd = "nslookup exemplo.oastify.com"
-```
+O comando atual usa `nslookup` para validar interação externa
 
 Use um domínio controlado pelo time de teste, como:
 
